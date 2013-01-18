@@ -1,0 +1,8 @@
+---
+layout: wrapper
+---
+<h1>Recent posts</h1>
+<% for(var index in posts) {
+    var post = posts[index]; %>
+    <h2><%= post.title %></h2>
+<% } %>
