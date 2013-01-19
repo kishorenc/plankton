@@ -16,7 +16,8 @@
         "js-yaml": "1.0.x",
         "marked": "0.2.6",
         "commander": "1.1.1",
-        "mkdirp": "0.3.4"
+        "mkdirp": "0.3.4",
+        "moment": "1.7.2"
     },
     "devDependencies": {
         "mocha": "*"

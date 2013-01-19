@@ -1,7 +1,8 @@
 ---
 title: The experimental domains feature
 author: Kishore Nallan
-date: 24 January, 2013
+date: January 24, 2013
+published: true
 layout: post
 ---
 
