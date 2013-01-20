@@ -6,7 +6,7 @@ var plankton = require('../');
 
 program
     .version('0.0.0')
-    .option('-source, --source [type]', 'Path to directory where posts are found')
+    .option('-src, --src [type]', 'Path to directory where posts are found')
     .option('-dest, --dest [type]', 'Path to directory where plankton will write files to')
     .parse(process.argv);
 
@@ -17,7 +17,7 @@ mkdirp(program.dest, function (err) {
 
     console.log('Reading from ' + program.source + ' and publishing to ' + program.dest + " ...");
 
-    plankton.publish(program.source, program.dest, function(err) {
+    plankton.publish(program.src, program.dest, function(err) {
         // callback(null) is called once after all the posts are published or
         // callback(err) is called once for each error that occurs
         if(err) return console.log(err);
