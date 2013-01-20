@@ -27,6 +27,7 @@
         "url": "https://github.com/kishorenc/plankton/issues"
     },
     "main": "index.js",
+    "bin": { "plankton" : "./bin/planktoncli.js" },
     "engines": { "node": ">=0.8.0" },
     "licenses" : [
         { "type" : "MIT", "url" : "https://raw.github.com/kishorenc/plankton/master/LICENSE" }
