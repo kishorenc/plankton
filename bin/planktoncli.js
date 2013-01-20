@@ -15,12 +15,15 @@ program
 mkdirp(program.dest, function (err) {
     if (err) return console.error(err);
 
-    console.log('Reading from ' + program.source + ' and publishing to ' + program.dest);
-    console.log('Publishing the posts...');
+    console.log('Reading from ' + program.source + ' and publishing to ' + program.dest + " ...");
 
     plankton.publish(program.source, program.dest, function(err) {
+        // callback(null) is called once after all the posts are published or
+        // callback(err) is called once for each error that occurs
         if(err) return console.log(err);
-        console.log('Done!');
+        else {
+            console.log('Done.');
+        }
     });
 });
 
