@@ -6,6 +6,6 @@ published: true
 layout: post
 ---
 
-This is some text. First para here.
+This is *some* text. First para here.
 
-Second para is right here! EOF;
+Second para is _right_ here!
