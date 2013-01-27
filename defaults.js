@@ -1,7 +1,7 @@
 module.exports = {
-    POSTS_DIRECTORY: 'posts',
-    LAYOUTS_DIRECTORY: 'layouts',
+    POSTS_DIRECTORY: '_posts',
+    LAYOUTS_DIRECTORY: '_layouts',
     FRONT_MATTER_DELIMETER: '---',
-    USER_CONFIG_FILE: 'config.js',
+    USER_CONFIG_FILE: '_config.js',
     PERMALINK: '/:month-:day-:year/:title.html'
 }
