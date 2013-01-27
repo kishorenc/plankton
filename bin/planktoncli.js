@@ -26,7 +26,7 @@ mkdirp(program.dest, function (err) {
         // callback(err) is called once for each error that occurs
         if(err) return console.log(err);
         else {
-            console.log('Done.');
+            console.log('Finished publishing all posts.');
         }
     });
 });

@@ -52,7 +52,7 @@ of the subview as the `content` variable.
 
 To publish the site, call plankton from the command-line:
 
-    $ plankton --src=./example --dest=./example/out
+    $ plankton --src=./example --dest=./out
 
 Check out the the `/example` folder to see a bare-bones example.
 
