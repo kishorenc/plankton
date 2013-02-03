@@ -1,6 +1,6 @@
 {
     "name": "plankton",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "A static blog generator for node.",
     "homepage": "https://github.com/kishorenc/plankton",
     "author": "Kishore Nallan <kishore@kishorelive.com>",
