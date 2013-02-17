@@ -4,7 +4,7 @@ layout: wrapper
 <h1>Showing all posts</h1>
 <% for(var index in posts) {
      var thisPost = posts[index];
-     if(thisPost != post) { %>
+     if(thisPost.fileType == '.md') { %>
         <div>
             <small><%=: thisPost.timestamp | formatDate:'DD MMMM, YYYY' %></small>
             <h2><%= thisPost.title %></h2>

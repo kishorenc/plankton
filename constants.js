@@ -8,6 +8,10 @@ module.exports = {
     DATE_PROPERTY: 'date',
     PUBLISHED_PROPERTY: 'published',
     TIMESTAMP_GENERATED_PROPERTY: 'timestamp',
+    TITLE_PROPERTY: 'title',
+    AUTHOR_PROPERTY: 'author',
+    FILENAME_PROPERTY: 'fileName',
+    FILETYPE_PROPERTY: 'fileType',
 
     SLUG_DAY: ':day',
     SLUG_MONTH: ':month',
