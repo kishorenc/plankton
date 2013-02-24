@@ -7,7 +7,7 @@ layout: wrapper
      if(thisPost.fileType == '.md') { %>
         <div>
             <small><%=: thisPost.timestamp | formatDate:'DD MMMM, YYYY' %></small>
-            <h2><%= thisPost.title %></h2>
+            <h2><a href="<%= thisPost.permalink %>"><%= thisPost.title %></a></h2>
         </div>
 <%   }
    }
