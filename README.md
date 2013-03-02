@@ -46,7 +46,16 @@ The EJS template has access to the following template variables:
 * `post` - The actual post. `post.body` contains the post text and `post.title` contains the title of the post. You can
 also access all other properties specified in the YAML front-matter as properties of the `post` object.
 * `content` - If a template file specifies another template as a layout, the referred layout file get the contents
-of the subview as the `content` variable.
+of the subview as the `content` template variable.
+
+## RSS Feed
+
+Plankton generates a `feed.xml` file at the root of your published site. Be sure to set the following properties in
+`_config.js`, as they are used as part of the feed:
+
+* BLOG_URL
+* BLOG_TITLE
+* BLOG_DESCRIPTION
 
 ## Publishing the site
 
