@@ -18,7 +18,8 @@
         "commander": "1.1.1",
         "mkdirp": "0.3.4",
         "moment": "1.7.2",
-        "ncp": "0.2.6"
+        "ncp": "0.2.6",
+        "rss": "0.0.4"
     },
     "devDependencies": {
         "mocha": "*"

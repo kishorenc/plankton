@@ -18,5 +18,7 @@ module.exports = {
     SLUG_YEAR: ':year',
     SLUG_TITLE: ':title',
 
-    DEFAULT_TIMESTAMP: 0
+    DEFAULT_TIMESTAMP: 0,
+
+    FEED_FILE_NAME: 'feed.xml'
 }
